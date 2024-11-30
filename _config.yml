@@ -1,0 +1,32 @@
+# Konfigurasi Dasar
+title: "My Jekyll Site"
+description: "A simple site powered by Jekyll and GitHub Pages"
+baseurl: "/"
+url: "https://rahmatfanani-portfolio.github.io"
+
+# Tema yang Digunakan (bisa disesuaikan dengan tema yang kamu gunakan)
+theme: jekyll-theme-primer
+
+# Path untuk Folder dan File
+source: docs
+destination: docs/_site
+
+# File CSS
+sass:
+  style: compressed
+css: assets/css/main.css
+
+# Plugin GitHub Pages
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+
+# Pagination (opsional)
+paginate: 5
+paginate_path: "/page:num/"
+
+# Metadata GitHub (opsional)
+github:
+  is_project_page: true
